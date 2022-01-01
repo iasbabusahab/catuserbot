@@ -106,13 +106,13 @@ async def bot_start(event):
             start_msg = f"Hey! 👤{mention},\
                         \nI am {my_mention}'s assistant bot.\
                         \nYou can contact to my master from here.\
-                        \n\nPowered by [UPSC](https://t.me/ias_factory)"
+                        \n\nPowered by [UPSC](https://t.me/its_iasbabu)"
         buttons = [
             (
-                Button.url("MY CHANNEL", "https://t.me/ias_factory"),
+                Button.url("UPSC Discussion GROUP", "https://t.me/upsc_cse_aspirants_group"),
                 Button.url(
-                    "MY Group",
-                    "https://t.me/upscmotivationdiscussion",
+                    "Pdf Chnnal",
+                    "https://t.me/upsc_cse_pdf",
                 ),
             )
         ]
